@@ -38,11 +38,10 @@ jobs:
     permissions:
       contents: read
 
-    # Optional: use a protected environment if you have deployment protection rules for publishing
-    environment:
-      name: pypi
-      # Uncomment and update the URL if desired:
-      # url: https://pypi.org/project/YOURPROJECT/${{ github.event.release.name }}
+    # Remove the environment configuration to avoid trusted publishing.
+    # environment:
+    #   name: pypi
+    #   url: https://pypi.org/project/YOURPROJECT/${{ github.event.release.name }}
 
     steps:
       - name: Retrieve release distributions
