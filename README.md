@@ -2,8 +2,13 @@
 
 **Flexible Framework for Graph Feature Engineering**
 
+[![PyPI](https://img.shields.io/pypi/v/graphflex?color=blue&label=PyPI&logo=pypi)](https://pypi.org/project/graphflex/)
+[![Python Version](https://img.shields.io/pypi/pyversions/graphflex?logo=python)](https://pypi.org/project/graphflex/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/predict-idlab/graphflex/python-publish.yml)
+[![Docs](https://img.shields.io/badge/docs-online-blue?logo=readthedocs)](https://github.com/predict-idlab/graphflex)
+[![Scikit-learn compatible](https://img.shields.io/badge/Scikit--learn-compatible-blue)](https://scikit-learn.org/stable/related_projects.html#third-party-projects)
+---
 GraphFlex is a modular and extensible framework for graph-based feature engineering in Python. It allows seamless integration of graph datasets with traditional machine learning pipelines using familiar tools like `scikit-learn`.
 
 > 🔗 Homepage & Documentation: [GraphFlex on GitHub](https://github.com/predict-idlab/graphflex)
